@@ -6,11 +6,12 @@
       url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
       version - version of this plugin. Required. Must match <version> in plugin.xml
     -->
-    <plugin id="ru.citymobil.plugin.citymodule" url="https://github.com/Pabls/citymodule/raw/main/citymodule-1.0.0.jar"
+    <plugin id="ru.citymobil.plugin.citymodule"
+            url="https://github.com/Pabls/citymodule/raw/main/citymodule-1.0.0.jar"
             version="1.0.0">
         <!--
           The <idea-version> element must match the same element in plugin.xml. Required.
         -->
-        <idea-version since-build="*" until-build="*"/>
+        <idea-version since-build="201.8743.12"/>
     </plugin>
 </plugins>
